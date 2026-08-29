@@ -28,3 +28,37 @@ async function getQuote() {
 }
 
 document.getElementById("quoteBTN").addEventListener("click", getQuote);
+
+const taskIn = document.querySelector("#command-input");
+const taskOut = document.querySelector("#task-out");
+
+taskIn.addEventListener("keydown", async function(event) {
+
+    if (event.key != "Enter") {
+        return;
+    }
+
+    let command = taskIn.value;
+
+    if (command.trim() == "clear") {
+      taskOut.innerHTML = "";
+    }
+
+    else{
+        taskOut.innerHTML += `
+            <p class = "task">${command}</p>
+        `
+    }
+    taskIn.value = "";
+
+});
+
+taskOut.addEventListener("click", function(event) {
+    if (event.target.classList.contains("task")) {
+        event.target.remove();
+    }
+});
+
+
+
+
