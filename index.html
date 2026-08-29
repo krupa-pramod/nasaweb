@@ -4,10 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
     <title>nasaweb</title>
   </head>
+
   <body>
-    <div id="app"></div>
+
+    <h1 id = "head">study time!</h1>
+
+    <div id="search-container">
+      <input type="text" id="search-bar" placeholder="Search" />
+      <button id="search-button">⤷</button>
+    </div>
+
+
+    <div id = "quoteCont">
+      <h3>kanye quotes ⋆✴︎˚｡⋆</h5>
+      <p id="quote">get a quote from kanye!</p>
+      <button id="quoteBTN" style="padding: 10px; border-radius: 15px; justify-self: center; background-color: rgb(98, 66, 34); color: white;">load new</button>
+    </div>
+
+    <div id = "picCont">
+      <p id = "pictxt">nasa photo of the day  ๋࣭  ࣪ ˖ ┈ᯓ★</p>
+      <img id="nasaPic" alt="apod photo">
+    </div>
+    
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

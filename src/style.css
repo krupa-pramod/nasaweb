@@ -1,4 +1,65 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: rgb(217, 190, 157);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#head {
+  color: white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+#search-container {
+  display: flex;
+  justify-content: center;
+}
+
+#search-bar {
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  outline: none;
+}
+
+#search-button {
+  padding-left: 10px;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#picCont {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 250px;
+}
+
+#nasaPic {
+  width: 250px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+#pictxt {
+  color: white;
+
+}
+
+#quoteCont {
+  position: fixed;
+  max-width: 200px;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 25px;
+  border: 2px dashed rgba(76, 58, 22, 0.762);
 }
