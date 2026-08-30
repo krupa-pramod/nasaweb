@@ -59,6 +59,15 @@ taskOut.addEventListener("click", function(event) {
     }
 });
 
+function updateTime() {
+    var timeNow = new Date().toLocaleString();
+    var timeText = document.querySelector("#timeElement");
+
+    timeText.innerHTML = timeNow
+}
+
+setInterval(updateTime,1000)
+
 
 
 

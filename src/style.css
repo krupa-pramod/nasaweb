@@ -104,3 +104,14 @@ body {
   border-radius: 10px;
   outline: none;
 }
+
+#timeElement {
+  background-color: rgb(69, 46, 3);
+  width: 500px;
+  color: white;
+  position: fixed;
+  left: 350px;
+  bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
