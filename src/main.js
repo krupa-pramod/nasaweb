@@ -68,6 +68,15 @@ function updateTime() {
 
 setInterval(updateTime,1000)
 
+const searchButton = document.getElementById("search-button");
+const searchBar = document.getElementById("search-bar");
+
+searchButton.addEventListener("click", function(event) {
+  const search = searchBar.value;
+  if (search != "") {
+    window.open("https://www.google.com/search?q=" + encodeURIComponent(search), "_blank")
+  }
+});
 
 
 
