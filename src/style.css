@@ -107,11 +107,11 @@ body {
 
 #timeElement {
   background-color: rgb(69, 46, 3);
-  width: 500px;
+  width: 250px;
   color: white;
   position: fixed;
-  left: 350px;
-  bottom: 20px;
+  right: 20px;
+  bottom: 280px;
   padding: 10px;
   text-align: center;
 }
