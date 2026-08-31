@@ -1,5 +1,7 @@
 This is a personalized search-engine style tab that is designed for productivity created in HTML, CSS, and JavaScript with the help of the Nasa APOD API.
 
+![My website](screenshot.png)
+
 To view this project, visit https://krupa-pramod.github.io/krupas-os/
 Simply click the link to open the project in your web.
 
